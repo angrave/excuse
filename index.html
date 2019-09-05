@@ -3,9 +3,13 @@
 
 </head>
 <body>
-    Angrave's Acme Random Excuse Generator. Refresh for a new excuse. Contributions - (New excuses) are accepted, one per line thanks.
+    Need a new excuse for those tired legs and slower-than-normal pace? 
+    Try <em>Angrave's Acme Random Excuse Generator</em>, brimming with tried and tested excuses. 
     
-    <h1 id='excuse'>...</h1>
+    Refresh this page for a new excuse. 
+    Contributions - (New excuses) are accepted via email (ang..e@gmail), one per line. Thanks.
+    
+    <h1 id='excuse'>...javascript requird to generate an excuse ...</h1>
     
     </body>
     <script>
@@ -18,7 +22,8 @@ excuses=[
 "The up hills were in all the wrong places",
 "I was leaning into my lean-to",
 "That was just my warm-up, so ready to start?",
-"It's my day off",
+"It's my day off", "It's my morning off", "It's my afternoon off",
+"I'm resetting my Circadian Rhythm",
 "I ran too far yesterday",
 "My legs are asleep- I didn't run far enough yesterday",
 "My legs are asleep- I ran too fast yesterday",
@@ -43,7 +48,7 @@ excuses=[
 "It was cooler than I thought",
 "It was warmer than I expected but it needed to be cooler",
 "It was cooler than I expected but it needed to be warmer",
-    "I didn't need to win",
+ "I didn't need to win",
 
 // Thanks to J Amos-
 "I'm wearing the wrong socks",
@@ -59,4 +64,4 @@ excuses=[
 var excuse = excuses[ Math.floor(Math.random() * excuses.length)] ;
 document.getElementById('excuse').innerHTML = '<em>'+excuse+'</em>';
 </script>
-    </html>
+</html>
