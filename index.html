@@ -1,0 +1,29 @@
+<html>
+<head>
+    <script>
+excuses=[
+"My form just couldnt keep up with my style",
+"I'm still developing a new style",
+"My calves needed a it's-all-about-me day",
+"I'm still on my cool down on yesterday's run",
+"Wait you mean you didn't run an ultra yesterday?",
+"The up hills were in all the wrong places",
+"I was leaning into my lean-to",
+"That was just my warm-up, so ready to start?",
+"It's my day off",
+"I ran too far yesterday",
+"My legs are asleep- I didn't run far enough yesterday",
+"My legs are asleep- I ran too fast yesterday",
+"My legs are asleep- I ran too slow yesterday",
+"Yesterday was perfect and you can't have that twice in a row",
+"It's my slow week",
+"I'm prepping for tomorrow"
+];
+
+var excuse = excuses[ Math.floor(Math.random() * excuses.length)] ;
+document.getElementById('excuse').innerText = excuse;
+</script>
+</head>
+<body>
+    <h1 id='excuse'></excuse>
+    </body></html>
