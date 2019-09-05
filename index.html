@@ -32,11 +32,14 @@ excuses=[
     "I'm working on my short strides",
     "I'm working on my fast strides",
     "I'm working on my slow strides",
-    "Pacing is all in the mind"
+    "Pacing is all in the mind",
+    "My Circadian Rhythm hit the snooze button",
+    "I'd paid for the pain and gain yesterday",
+    "I didn't want to show you up"
 
 ];
 
 var excuse = excuses[ Math.floor(Math.random() * excuses.length)] ;
-document.getElementById('excuse').innerText = excuse;
+document.getElementById('excuse').innerHTML = '<em>'+excuse+'</em>';
 </script>
     </html>
